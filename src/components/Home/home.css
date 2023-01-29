@@ -43,11 +43,15 @@
   width: 60px;
   display: flex;
   align-items: center;
+  position: relative;
+  
 
 }
 
-.search-icon svg{
+.search-icon img{
    fill: #9aa0a6;
+   position: absolute;
+   top: 5%;
 }
 
 .mic-icon{
@@ -64,9 +68,11 @@
     
 }
 
-.mic-icon svg{
-    height: 24px;
-    width: 24px;
+.mic-icon img{
+    height: 22px;
+    width: 16px;
+    padding-right: 7px;
+    padding-bottom: 7px;
 }
 
 .search-input input{
